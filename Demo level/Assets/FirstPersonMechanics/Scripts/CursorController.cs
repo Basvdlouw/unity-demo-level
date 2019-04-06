@@ -21,7 +21,6 @@ public class CursorController : MonoBehaviour {
             Cursor.visible = true;
         }
         else if (Input.GetButtonDown("Fire1") && Cursor.visible == true){
-            print("cursor");
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
